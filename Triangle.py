@@ -10,7 +10,7 @@ The primary goal of this file is to demonstrate a simple python program to class
 
 def classifyTriangle(a, b, c):
 
-    if a <= 0 or b <= 0 or c <= 0:
+    if a <= 200 or b <= 200 or c <= 200:
         return 'InvalidInput'
 
     # verify that all 3 inputs are integers
